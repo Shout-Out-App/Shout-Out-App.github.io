@@ -1,0 +1,41 @@
+*{padding: 0px; margin: 0px;}
+body {font-family: 'Raleway', sans-serif; font-size: 16px; color: #6b6b6b; background: #212832; overflow: hidden;}
+header{background: #fff; padding: 30px 0; text-align: center; }
+.main{width: 80%; margin: 0 auto; padding: 60px 0 0 0; height: calc(100vh - 127px - 60px);}
+.logo_img{width: 300px;}
+.left_side{width: 50%; float: left; color: #fff;}
+.right_side{width: 50%; float: left; text-align: center; height: 100%;}
+.right_side img{height: 100%;}
+h2{line-height: 42px; margin: 0 0 26px 0; font-weight: 700;}
+.highlight-text{font-weight: 900; display: block; font-size: 46px; padding: 11px 0 7px 0;}
+.themclr{color: #00dcc3;}
+p{font-size: 16px; line-height: 28px; margin: 0 0 15px 0;}
+.store-icon{padding: 10px 0 0 0;}
+.appstore_img{float: left; margin: 10px 20px 0 0;}
+.appstore_img img{height: 50px;}
+.store-icon img:hover{box-shadow: 1px 1px 28px 0px #020202;}
+
+/*.animation {
+  animation: MoveUpDown 2s linear infinite;
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+}
+*/
+@media (max-width:991px)
+{
+  body{overflow: auto;}
+	.main{width: 100%; height: auto; margin: auto;}
+	.left_side{width: 100%;}
+	.right_side{width: 100%; margin-top: 50px;}
+	.right_side img{ width: 100%;}
+	.left_side_mbl{width: 80%; margin: 0 auto;}
+}
+
+
